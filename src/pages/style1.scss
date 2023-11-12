@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.ul1.accordion-list {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 0;
+  list-style: none;
+  background-color:inherit;
+  
+  .li1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    padding: 9px;
+    margin: 0 auto px auto;
+    
+   
+    border-radius: px;
+   
+    
+    &.active {
+      h3 {
+        &:after {
+          transform: rotate(45deg);
+        }
+      }
+    }
+    
+    h3 {
+      color:#FFF;
+      font-weight: 700;
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      padding: 0 0 0 0;
+      margin: 0;
+      font-size: 15px;
+      letter-spacing: 0.01em;
+      cursor: pointer;
+      
+      &:after {     
+        content: url("img/cross-svgrepo-com.svg");
+        font-family: "material-design-iconic-font";
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #ffffff !important;
+        transition: all 0.3s ease-in-out;
+        font-size: 18px;
+      }
+    }
+    
+    div.answer {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      padding: 0;
+     
+
+      .p1 {
+        color:#ffffffdc;
+        position: relative;
+        display: block;
+        font-weight: 300;
+        padding: 20px 0 0 0;
+        cursor: pointer;
+        line-height: 150%;
+        margin: 0px 0 0px 5px;
+        font-size: 14px;
+        height:40px
+
+      }
+      .p1:hover{
+        color:#ffffff7a;
+      }
+    }
+  }
+}
+
+.ul2.accordion-list {
+ 
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 0;
+  list-style: none;
+  background-color: #121212;
+
+  .li2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #121212;
+    padding: 10px;
+    margin: 0 auto 15px auto;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    cursor: pointer;
+    
+    &.active {
+      .h33 {
+        &:after {
+          transform: rotate(45deg);
+        }
+      }
+    }
+    
+    .h33 {
+      color: #ffffff !important;
+      font-weight: 700;
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      padding: 0 0 0 5px;
+      margin: 0;
+      font-size: 15px;
+      letter-spacing: 0.01em;
+      cursor: pointer;
+      
+      &:after {
+        content: url("img/cross-svgrepo-com.svg");
+        font-family: "material-design-iconic-font";
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #ffffff !important;
+        transition: all 0.3s ease-in-out;
+        font-size: 18px;
+      }
+    }
+    
+    div.answer {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      
+      .p2 {
+        color: #FFF;
+        position: relative;
+        display: block;
+        font-weight: 300;
+        padding: 20px 10px 0px 5px;
+        cursor: pointer;
+        line-height: 200%;
+        margin: 0 0 15px 0;
+        font-size: 14px;
+      }
+    }
+  }
+}
